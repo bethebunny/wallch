@@ -1,8 +1,8 @@
 from __future__ import print_function
 
 import ast
-import contextlib
 import collections
+import contextlib
 import os
 import random
 import socket
