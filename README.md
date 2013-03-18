@@ -58,3 +58,4 @@ Show a description of all commands
 * Works under python 2 and 3.
 * Currently only supports [feh](https://wiki.archlinux.org/index.php/Feh) as a background setter
   * Designed to be modular. Feel free to add your own and push them.
+* Not PEP8 compliant. We use 2 space tabs at work and I'm used to it. Deal.
