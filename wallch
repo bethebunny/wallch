@@ -1,4 +1,3 @@
 #!/bin/bash
 
-#TODO(bunny): Meaningful error code?
 echo "$@" | nc localhost `cat ~/.wallch_port`
