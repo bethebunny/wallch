@@ -20,6 +20,8 @@ Random wallpaper setter with command line interface
 
 `wallch set ~/Pictures/walls/space.jpg`: Set the current image to space.jpg
 
+`wallch set -1`: Go back to the previous image
+
 `wallch pause`: Don't update the wallpaper until a `wallch play`
 
 `wallch delay 10`: Set the delay between wallpaper changes to 10 seconds
@@ -29,6 +31,8 @@ Random wallpaper setter with command line interface
 `wallch errors`: List files which your background program had problems setting (eg. dotfiles, misformatted images)
 
 `wallch help`: Show a description of all commands
+
+`wallch list_images | wc -l`: The number of images currently known
 
 To load new images at runtime:
 
